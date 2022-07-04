@@ -2,4 +2,7 @@
     max-width: 60rem;
     margin: 0 auto;
     height: 100vh;
+    background-color: rgb(129, 123, 123);
+    font-size: 5rem;
+    /* scroll-snap-align: start; */
 }

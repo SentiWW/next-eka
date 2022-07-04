@@ -4,9 +4,11 @@ interface MembersProps {}
 
 const Members : React.FC<MembersProps> = () => {
     return (
-        <ComponentWrapper>
-            Members
-        </ComponentWrapper>
+        <div id='Members'>
+            <ComponentWrapper>
+                Members
+            </ComponentWrapper>
+        </div>
     );
 };
 
