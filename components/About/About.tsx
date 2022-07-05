@@ -1,11 +1,14 @@
 import ComponentWrapper from "../ComponentWrapper";
+import SectionHeader from "../SectionHeader";
 
 interface AboutProps {}
 
 const About : React.FC<AboutProps> = () => {
     return (
-        <ComponentWrapper>
-            About us
+        <ComponentWrapper id="about">
+            <SectionHeader>
+                About us
+            </SectionHeader>
         </ComponentWrapper>
     );
 };

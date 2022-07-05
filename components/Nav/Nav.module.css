@@ -2,13 +2,12 @@
     padding: 2rem;
 }
 
-.td{
+.td {
     padding: 2rem;
     text-align: center;
-
 }
 
-.table{
+.table {
     width: 100%;
 }
 
@@ -16,4 +15,20 @@
     display: block;
     max-width: 20rem;
     margin: 0 auto;
+}
+
+.ul {
+    width: calc(100vw - 4rem);
+    padding: 0;
+    text-align: center;
+}
+
+.li {
+    display: inline;
+    max-width: 20vw;
+    margin: 0 2.5vw;
+}
+
+.li:first-child {
+    margin: 0 0 0 2.5vw;
 }

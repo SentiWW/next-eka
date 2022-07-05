@@ -4,5 +4,6 @@
     height: 100vh;
     background-color: rgb(129, 123, 123);
     font-size: 5rem;
+    padding: 1rem;
     /* scroll-snap-align: start; */
 }

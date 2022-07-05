@@ -1,14 +1,15 @@
 import ComponentWrapper from "../ComponentWrapper";
+import SectionHeader from "../SectionHeader";
 
 interface MembersProps {}
 
 const Members : React.FC<MembersProps> = () => {
     return (
-        <div id='Members'>
-            <ComponentWrapper>
+        <ComponentWrapper id="members">
+            <SectionHeader>
                 Members
-            </ComponentWrapper>
-        </div>
+            </SectionHeader>
+        </ComponentWrapper>
     );
 };
 
