@@ -11,13 +11,11 @@ import style from './index.module.css'
 const Home: NextPage = () => {
   return (
     <>
-      <div className={style.container}>
         <Nav/>
         <Welcome/>
         <About/>
         <Members/>
         <Contact/>
-      </div>
     </>
   )
 }
